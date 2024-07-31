@@ -40,6 +40,8 @@ modules:
       - gnome-backgrounds
       - gnome-user-share
       - gnome-user-docs
+      - gnome-software-rpm-ostree
+      - gnome-software
       - gnome-tour
       - nvtop
       - htop
@@ -59,10 +61,12 @@ modules:
         - org.gabmus.hydrapaper
         - io.missioncenter.MissionCenter
         - org.mozilla.firefox
+        - com.google.Chrome
         - com.valvesoftware.Steam
         - com.usebottles.bottles
         - com.github.Matoking.protontricks
         - org.telegram.desktop
+        - org.openrgb.OpenRGB
         - com.spotify.Client
       remove:
         - org.gnome.eog
