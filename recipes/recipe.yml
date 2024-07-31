@@ -1,22 +1,14 @@
 # image will be published to ghcr.io/<user>/<name>
 name: isola
-# description will be included in the image's metadata
 description: This is isola OS image.
 
-# the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest # latest is also supported if you want new updates ASAP
+image-version: latest
 
-# module configuration, executed in order
-# you can include multiple instances of the same module
 modules:
   - type: files
     files:
       - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-                       # put configuration files you want in /usr/etc/ inside the image
-                       # while putting files in /etc/ is done on booted system by system administrators.
-                       # read more about this in files module reference.
 
   - type: rpm-ostree
     repos:
@@ -29,7 +21,7 @@ modules:
       - firefox-langpacks
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
+    notify: true
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
@@ -43,13 +35,23 @@ modules:
         - com.usebottles.bottles
         - com.github.Matoking.protontricks
         - org.telegram.desktop
+        - com.spotify.Client
       remove:
         - org.gnome.eog
+
+  - type: brew
+    nofile-limits: true
+    brew-analytics: false
 
   - type: fonts
     fonts:
       nerd-fonts:
         - NerdFontsSymbolsOnly
         - Hack
+
+  - type: akmods
+    base: asus
+    install:
+      - openrgb
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
