@@ -36,7 +36,6 @@ modules:
       - gnome-browser-connector
       - gnome-epub-thumbnailer
       - gnome-remote-desktop
-      - gnome-online-accounts
       - gnome-system-monitor
       - gnome-backgrounds
       - gnome-user-share
