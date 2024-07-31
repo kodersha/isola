@@ -57,6 +57,7 @@ modules:
         - io.github.flattool.Warehouse
         - com.mattjakeman.ExtensionManager
         - page.codeberg.libre_menu_editor.LibreMenuEditor
+        - org.gabmus.hydrapaper
         - io.missioncenter.MissionCenter
         - org.mozilla.firefox
         - com.valvesoftware.Steam
