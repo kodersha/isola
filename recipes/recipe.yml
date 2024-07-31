@@ -59,6 +59,7 @@ modules:
         - com.mattjakeman.ExtensionManager
         - page.codeberg.libre_menu_editor.LibreMenuEditor
         - org.gabmus.hydrapaper
+        - it.mijorus.gearlever
         - io.missioncenter.MissionCenter
         - org.mozilla.firefox
         - com.google.Chrome
