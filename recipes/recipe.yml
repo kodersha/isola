@@ -51,7 +51,7 @@ modules:
         - Hack
 
   - type: akmods
-    base: asus
+    base: main
     install:
       - openrgb
 
