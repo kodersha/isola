@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 set -oue pipefail
 
-mkdir /var/lib/tor
+if [ ! -d "/var/lib/tor" ]; then
+  mkdir /var/lib/tor
+fi
