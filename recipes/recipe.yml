@@ -1,4 +1,3 @@
-# image will be published to ghcr.io/<user>/<name>
 name: isola
 description: This is isola OS image.
 
@@ -6,85 +5,11 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: /
-
-  - type: rpm-ostree
-    repos:
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
-    install:
-      - podman-compose
-      - code
-    remove:
-      - firefox
-      - firefox-langpacks
-      - f40-backgrounds-base
-      - f40-backgrounds-gnome
-      - desktop-backgrounds-gnome
-      - gnome-session-xsession
-      - gnome-shell-extension-common
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      - gnome-classic-session
-      - gnome-classic-session-xsession
-      - gnome-browser-connector
-      - gnome-epub-thumbnailer
-      - gnome-remote-desktop
-      - gnome-system-monitor
-      - gnome-backgrounds
-      - gnome-user-share
-      - gnome-user-docs
-      - gnome-software-rpm-ostree
-      - gnome-software
-      - gnome-tour
-      - nvtop
-      - htop
-      - yelp
-      
-  - type: default-flatpaks
-    notify: true
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "flathub"
-      install:
-        - com.github.tchx84.Flatseal
-        - io.github.flattool.Warehouse
-        - com.mattjakeman.ExtensionManager
-        - page.codeberg.libre_menu_editor.LibreMenuEditor
-        - org.gabmus.hydrapaper
-        - it.mijorus.gearlever
-        - io.missioncenter.MissionCenter
-        - org.mozilla.firefox
-        - com.google.Chrome
-        - com.valvesoftware.Steam
-        - com.usebottles.bottles
-        - com.github.Matoking.protontricks
-        - org.telegram.desktop
-        - org.openrgb.OpenRGB
-        - com.spotify.Client
-      remove:
-        - org.gnome.eog
-
-  - type: brew
-    nofile-limits: true
-    brew-analytics: false
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - NerdFontsSymbolsOnly
-        - Hack
-
-  - type: akmods
-    base: main
-    install:
-      - openrgb
-
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  - from-file: common-packages.yml
+  - from-file: common-flatpaks.yml
+  - from-file: common-akmods.yml
+  - from-file: common-files.yml
+  - from-file: common-fonts.yml
+  - from-file: common-brew.yml
+  - from-file: common-systemd.yml
+  - from-file: common-signing.yml

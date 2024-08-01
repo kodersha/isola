@@ -1,0 +1,5 @@
+type: fonts
+fonts:
+  nerd-fonts:
+    - NerdFontsSymbolsOnly
+    - Hack
