@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 set -oue pipefail
 
-sudo dbus-uuidgen --ensure=/etc/machine-id
-sudo dbus-uuidgen --ensure
+# Ensure machine-id exists and is correct
+if [ ! -s /etc/machine-id ]; then
+  dbus-uuidgen --ensure=/etc/machine-id
+fi
+dbus-uuidgen --ensure
 
 # GTK
 gsettings set org.gnome.desktop.interface gtk-theme 'WhiteSur-Dark-solid-alt-blue'
