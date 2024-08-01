@@ -5,3 +5,5 @@ Bridge obfs4 91.206.178.246:56262 D2066BA5439AEB2286C1F1810D2AD92AB79CB6D2 cert=
 
 RunAsDaemon 0
 SocksPort 9050
+
+DataDirectory $HOME/.tor
