@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec bash /opt/zapret/init.d/sysv/zapret start
