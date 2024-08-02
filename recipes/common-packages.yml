@@ -4,7 +4,6 @@ repos:
 install:
   - podman-compose
   - code
-  - openrgb
 remove:
   - firefox
   - firefox-langpacks
