@@ -36,6 +36,7 @@ remove:
   - totem-video-thumbnailer
   - totem-pl-parser
   - malcontent-control
+  - tracker-miners
   - nvtop
   - htop
   - yelp
