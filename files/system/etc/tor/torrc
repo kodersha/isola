@@ -1,9 +1,0 @@
-UseBridges 1
-ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
-
-Bridge obfs4 91.206.178.246:56262 D2066BA5439AEB2286C1F1810D2AD92AB79CB6D2 cert=i6k7bEuAprv2hV5MnpSwXxez5EXSq3IQiIZXdqNQ/a1cIgKxqViAnjyuF22TvoDRRAiZRg iat-mode=0
-
-RunAsDaemon 0
-SocksPort 9050
-
-DataDirectory $HOME/.tor
