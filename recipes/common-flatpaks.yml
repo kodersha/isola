@@ -5,30 +5,5 @@ system:
   repo-name: flathub
   repo-title: "flathub"
   install:
-    # settings
-    - com.github.tchx84.Flatseal
-    - io.github.flattool.Warehouse
-    - com.mattjakeman.ExtensionManager
-    - page.codeberg.libre_menu_editor.LibreMenuEditor
-    - io.missioncenter.MissionCenter
-    - org.gabmus.hydrapaper
-    - it.mijorus.gearlever
-    - org.openrgb.OpenRGB
-    # browser
-    - org.mozilla.firefox
-    - com.google.Chrome
-    # files
-    - de.haeckerfelix.Fragments
-    # games
-    - org.freedesktop.Platform.VulkanLayer.gamescope
-    - org.freedesktop.Platform.VulkanLayer.MangoHud
-    - com.valvesoftware.Steam.Utility.steamtinkerlaunch
-    - com.valvesoftware.Steam
-    - com.github.Matoking.protontricks
-    - com.usebottles.bottles
-    # social
-    - org.telegram.desktop
-    # media
-    - com.spotify.Client
   remove:
     - org.gnome.eog
