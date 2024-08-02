@@ -33,6 +33,8 @@ remove:
   - gnome-tweaks
   - gnome-menus
   - gnome-tour
+  - totem-video-thumbnailer
+  - totem-pl-parser
   - malcontent-control
   - nvtop
   - htop
