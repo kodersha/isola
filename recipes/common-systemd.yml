@@ -1,7 +1,4 @@
 type: systemd
 system:
   disabled:
-    - firewalld.service
-user:
-  enabled:
-  disabled:
+    - firewalld
