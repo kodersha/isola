@@ -11,4 +11,5 @@ modules:
   - from-file: common-files.yml
   - from-file: common-fonts.yml
   - from-file: common-brew.yml
+  - fron-file: common-systemd.yml
   - from-file: common-signing.yml
