@@ -33,7 +33,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 ## ISO
 
 ```
-mkdir ./iso-output && sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/kodersha IMAGE_NAME=isola IMAGE_TAG=latest VARIANT=Server
+mkdir ./iso-output && sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/kodersha IMAGE_NAME=isola IMAGE_TAG=latest VARIANT=Server VERSION=40
 ```
 
 ## Verification
