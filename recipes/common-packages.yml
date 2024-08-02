@@ -4,11 +4,13 @@ repos:
 install:
   - podman-compose
   - code
+  - openrgb
 remove:
   - firefox
   - firefox-langpacks
   - f40-backgrounds-base
   - f40-backgrounds-gnome
+  - fedora-workstation-backgrounds
   - desktop-backgrounds-gnome
   - gnome-session-xsession
   - gnome-shell-extension-common
@@ -23,12 +25,16 @@ remove:
   - gnome-epub-thumbnailer
   - gnome-remote-desktop
   - gnome-system-monitor
+  - gnome-initial-setup
   - gnome-backgrounds
   - gnome-user-share
   - gnome-user-docs
   - gnome-software-rpm-ostree
   - gnome-software
+  - gnome-tweaks
+  - gnome-menus
   - gnome-tour
+  - malcontent-control
   - nvtop
   - htop
   - yelp
