@@ -4,9 +4,6 @@ repos:
 install:
   - podman-compose
   - code
-  # bridges
-  - obfs4
-  - tor
 remove:
   - firefox
   - firefox-langpacks
