@@ -34,9 +34,7 @@ remove:
   - gnome-menus
   - gnome-tour
   - totem-video-thumbnailer
-  - totem-pl-parser
   - malcontent-control
-  - tracker-miners
   - nvtop
   - htop
   - yelp
