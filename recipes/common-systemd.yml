@@ -2,3 +2,10 @@ type: systemd
 system:
   disabled:
     - firewalld
+user:
+  disabled:
+    - hybrid-sleep.target
+    - hibernate.target
+    - suspend.target
+    - sleep.target
+    - firewalld
