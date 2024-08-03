@@ -5,8 +5,7 @@ install:
   - podman-compose
   - code
   # amd
-  - radeon-profile
-  - radeon-profile-daemon
+  - corectrl
 remove:
   - firefox
   - firefox-langpacks
