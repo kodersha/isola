@@ -2,7 +2,6 @@ type: rpm-ostree
 repos:
   - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/vscode.repo
 install:
-  - libxcrypt-compat
   - podman-compose
   - corectrl
   - code
