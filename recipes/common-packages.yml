@@ -13,6 +13,8 @@ remove:
   - f40-backgrounds-gnome
   - fedora-workstation-backgrounds
   - desktop-backgrounds-gnome
+  - totem-video-thumbnailer
+  - malcontent-control
   - gnome-session-xsession
   - gnome-shell-extension-common
   - gnome-shell-extension-apps-menu
@@ -20,8 +22,8 @@ remove:
   - gnome-shell-extension-background-logo
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
-  - gnome-classic-session
   - gnome-classic-session-xsession
+  - gnome-classic-session
   - gnome-browser-connector
   - gnome-epub-thumbnailer
   - gnome-remote-desktop
@@ -35,10 +37,6 @@ remove:
   - gnome-tweaks
   - gnome-menus
   - gnome-tour
-  - totem-video-thumbnailer
-  - malcontent-control
   - nvtop
   - htop
   - yelp
-  - glibc
-  - zvbi
