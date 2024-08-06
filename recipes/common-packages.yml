@@ -41,4 +41,3 @@ remove:
   - htop
   - yelp
   - glibc
-  - gcc
