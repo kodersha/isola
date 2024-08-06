@@ -6,6 +6,7 @@ install:
   - rocm-clinfo
   - rocm-opencl
   - rocm-hip
+  - hipcc
   - corectrl
   - code
 remove:
