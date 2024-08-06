@@ -3,7 +3,9 @@ repos:
   - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/vscode.repo
 install:
   - podman-compose
+  - rocm-clinfo
   - rocm-opencl
+  - rocm-hip
   - corectrl
   - code
 remove:
