@@ -4,7 +4,6 @@ repos:
   - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/rocm.repo
 install:
   - podman-compose
-  - amdgpu-dkms
   - corectrl
   - rocm
   - code
