@@ -3,7 +3,14 @@ repos:
   - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/vscode.repo
 install:
   - rocm-runtime-devel
+  - rocm-runtime
   - rocm-opencl-devel
+  - rocm-opencl
+  - rocm-device-libs
+  - rocm-cmake
+  - rocm-hip
+  - rocminfo
+  - hsakmt
   - podman-compose
   - corectrl
   - code
