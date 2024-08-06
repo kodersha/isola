@@ -5,7 +5,6 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
 modules:
-  - from-file: common-brew.yml
   - from-file: common-packages.yml
   - from-file: common-flatpaks.yml
   - from-file: common-fonts.yml
