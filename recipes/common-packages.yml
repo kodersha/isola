@@ -1,16 +1,10 @@
 type: rpm-ostree
 repos:
   - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/vscode.repo
-  - https://raw.githubusercontent.com/kodersha/isola/main/sources/repos/rocm.repo
 install:
   - podman-compose
-  - corectrl
   - rocm-opencl
-  - rocm-opencl-runtime
-  - rocm-hip-runtime
-  - rocm-device-libs
-  - rocm-cmake
-  - rocminfo
+  - corectrl
   - code
 remove:
   - firefox
