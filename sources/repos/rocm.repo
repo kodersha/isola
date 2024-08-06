@@ -1,6 +1,0 @@
-[rocm]
-name=rocm
-baseurl=https://repo.radeon.com/rocm/yum/rpm/
-enabled=1
-gpgcheck=1
-gpgkey=https://repo.radeon.com/rocm/rocm.gpg.key
