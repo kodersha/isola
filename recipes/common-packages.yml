@@ -41,3 +41,5 @@ remove:
   - nvtop
   - htop
   - yelp
+  - glibc
+  - gcc
