@@ -5,7 +5,12 @@ repos:
 install:
   - podman-compose
   - corectrl
-  - rocm
+  - rocm-opencl
+  - rocm-opencl-runtime
+  - rocm-hip-runtime
+  - rocm-device-libs
+  - rocm-cmake
+  - rocminfo
   - code
 remove:
   - firefox
