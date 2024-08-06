@@ -49,5 +49,4 @@ remove:
   - htop
   - yelp
   - glibc
-  - gcc 
-  - clang
+  - gcc
