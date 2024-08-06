@@ -10,6 +10,5 @@ modules:
   - from-file: common-akmods.yml
   - from-file: common-files.yml
   - from-file: common-fonts.yml
-  - from-file: common-brew.yml
   - from-file: common-systemd.yml
   - from-file: common-signing.yml
