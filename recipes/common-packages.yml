@@ -22,6 +22,7 @@ remove:
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
   - gnome-shell-extension-user-theme
+  - gnome-shell-extension-gamerzilla
   - gnome-shell-extension-hotedge
   - gnome-shell-extension-hanabi
   - gnome-browser-connector
