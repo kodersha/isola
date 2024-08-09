@@ -19,8 +19,6 @@ remove:
   - gnome-shell-extension-background-logo
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
-  - gnome-classic-session-xsession
-  - gnome-classic-session
   - gnome-browser-connector
   - gnome-epub-thumbnailer
   - gnome-remote-desktop
