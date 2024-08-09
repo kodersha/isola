@@ -6,13 +6,13 @@ install:
   - corectrl
   - code
 remove:
-  - steamdeck-backgrounds
   - f40-backgrounds-base
   - f40-backgrounds-gnome
   - fedora-workstation-backgrounds
   - desktop-backgrounds-gnome
   - totem-video-thumbnailer
   - malcontent-control
+  - steamdeck-backgrounds
   - gnome-session-xsession
   - gnome-shell-extension-common
   - gnome-shell-extension-apps-menu
@@ -47,14 +47,11 @@ remove:
   - rom-properties-thumbnailer-dbus
   - rom-properties-utils
   - rom-properties-gtk3
-  - fastfetch
   - waydroid
   - waydroid-selinux
   - nautilus-gsconnect
   - discover-overlay
   - input-remapper
-  - protontricks
-  - lutris
-  - steam
+  - fastfetch
   - nvtop
   - yelp
