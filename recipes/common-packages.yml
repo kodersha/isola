@@ -18,7 +18,6 @@ remove:
   - gnome-shell-extension-compiz-windows-effect
   - gnome-shell-extension-launch-new-instance
   - gnome-shell-extension-background-logo
-  - gnome-shell-extension-caribou-blocker
   - gnome-shell-extension-bazzite-menu
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
