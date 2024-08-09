@@ -49,5 +49,7 @@ remove:
   - waydroid
   - waydroid-selinux
   - nautilus-gsconnect
+  - lutris
+  - steam
   - nvtop
   - yelp
