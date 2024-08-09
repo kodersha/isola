@@ -29,7 +29,6 @@ remove:
   - gnome-software
   - gnome-tweaks
   - gnome-menus
-  - gnome-tour
   - nvtop
   - htop
   - yelp
