@@ -6,6 +6,7 @@ install:
   - corectrl
   - code
 remove:
+  - steamdeck-backgrounds
   - f40-backgrounds-base
   - f40-backgrounds-gnome
   - fedora-workstation-backgrounds
