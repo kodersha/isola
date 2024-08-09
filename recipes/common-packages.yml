@@ -53,5 +53,7 @@ remove:
   - discover-overlay
   - input-remapper
   - fastfetch
+  - rygel
   - nvtop
+  - fish
   - yelp
