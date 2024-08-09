@@ -26,7 +26,6 @@ remove:
   - gnome-backgrounds
   - gnome-user-share
   - gnome-user-docs
-  - gnome-software-rpm-ostree
   - gnome-software
   - gnome-tweaks
   - gnome-menus
