@@ -52,6 +52,7 @@ remove:
   - nautilus-gsconnect
   - discover-overlay
   - input-remapper
+  - yafti
   - rygel
   - nvtop
   - fish
