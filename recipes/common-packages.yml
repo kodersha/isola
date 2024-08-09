@@ -15,14 +15,19 @@ remove:
   - gnome-session-xsession
   - gnome-shell-extension-common
   - gnome-shell-extension-apps-menu
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-blur-my-shell
+  - gnome-shell-extension-compiz-alike-magic-lamp-effect
   - gnome-shell-extension-compiz-windows-effect
   - gnome-shell-extension-launch-new-instance
   - gnome-shell-extension-background-logo
+  - gnome-shell-extension-just-perfection
   - gnome-shell-extension-bazzite-menu
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-window-list
   - gnome-shell-extension-user-theme
   - gnome-shell-extension-gamerzilla
+  - gnome-shell-extension-gsconnect
   - gnome-shell-extension-caffeine
   - gnome-shell-extension-hotedge
   - gnome-shell-extension-hanabi
@@ -36,5 +41,13 @@ remove:
   - gnome-software
   - gnome-tweaks
   - gnome-menus
+  - rom-properties
+  - rom-properties-common
+  - rom-properties-thumbnailer-dbus
+  - rom-properties-utils
+  - rom-properties-gtk3
+  - waydroid
+  - waydroid-selinux
+  - nautilus-gsconnect
   - nvtop
   - yelp
