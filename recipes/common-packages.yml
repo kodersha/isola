@@ -46,9 +46,13 @@ remove:
   - rom-properties-thumbnailer-dbus
   - rom-properties-utils
   - rom-properties-gtk3
+  - fastfetch
   - waydroid
   - waydroid-selinux
   - nautilus-gsconnect
+  - discover-overlay
+  - input-remapper
+  - protontricks
   - lutris
   - steam
   - nvtop
