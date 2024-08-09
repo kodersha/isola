@@ -23,7 +23,6 @@ remove:
   - gnome-epub-thumbnailer
   - gnome-remote-desktop
   - gnome-system-monitor
-  - gnome-initial-setup
   - gnome-backgrounds
   - gnome-user-share
   - gnome-user-docs
